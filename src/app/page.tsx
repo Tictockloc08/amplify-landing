@@ -227,7 +227,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              See how we've helped real estate agents amplify their reach and close more deals.
+              See how we&apos;ve helped real estate agents amplify their reach and close more deals.
             </p>
           </motion.div>
 
@@ -248,7 +248,7 @@ export default function Home() {
                   </button>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Sarah Johnson, Realtor</h3>
-                <p className="text-gray-300 mb-4">"AMPLIFY increased my lead generation by 300% in just 2 months. I'm closing 3x more deals now."</p>
+                <p className="text-gray-300 mb-4">&ldquo;AMPLIFY increased my lead generation by 300% in just 2 months. I&apos;m closing 3x more deals now.&rdquo;</p>
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
@@ -290,7 +290,7 @@ export default function Home() {
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                     ))}
                   </div>
-                  <p className="text-gray-300 mb-3">"{testimonial.quote}"</p>
+                  <p className="text-gray-300 mb-3">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div>
                     <div className="font-semibold">{testimonial.name}</div>
                     <div className="text-sm text-gray-400">{testimonial.role}</div>
@@ -439,7 +439,7 @@ export default function Home() {
                 AMPLIFY
               </h3>
               <p className="text-gray-400">
-                Amplifying real estate agents' reach and results through proven digital marketing strategies.
+                Amplifying real estate agents&apos; reach and results through proven digital marketing strategies.
               </p>
             </div>
             <div>
