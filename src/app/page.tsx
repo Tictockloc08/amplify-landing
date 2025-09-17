@@ -50,9 +50,9 @@ export default function Home() {
             >
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                  Stop Fighting
+                  Reach Your Most Valuable Audience
                   <span className="block bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
-                    Facebook's Algorithm
+                    From 50 Views to 100K in 30 Days
                   </span>
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed">
