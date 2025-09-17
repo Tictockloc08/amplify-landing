@@ -29,9 +29,9 @@ export default function Home() {
                 <a href="#pricing" className="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
                   Pricing
                 </a>
-                <button className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-6 py-2 rounded-lg font-medium hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
+                <a href="#pricing" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-6 py-2 rounded-lg font-medium hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -61,10 +61,10 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                <a href="#pricing" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
                   Amplify My Reach
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
+                </a>
                 <button 
                   onClick={() => setIsVideoPlaying(true)}
                   className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-cyan-400/10 transition-all duration-300 flex items-center justify-center"
@@ -386,9 +386,9 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <button className="w-full bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
+                  <a href="#pricing" className="w-full bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 inline-block text-center">
                     Start Amplifying Today
-                  </button>
+                  </a>
                   
                   <p className="text-xs text-gray-500 mt-4">
                     Lock in 6+ months for 15% discount
@@ -419,9 +419,9 @@ export default function Home() {
               Join hundreds of real estate agents who are already getting better results with AMPLIFY.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
+              <a href="#pricing" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
                 Get Started Now
-              </button>
+              </a>
               <button className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-cyan-400/10 transition-all duration-300">
                 Schedule a Call
               </button>
