@@ -422,9 +422,9 @@ export default function Home() {
               <a href="#pricing" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105">
                 Get Started Now
               </a>
-              <button className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-cyan-400/10 transition-all duration-300">
+              <a href="https://calendly.com/andrew-adtv/30min-1?back=1" target="_blank" rel="noopener noreferrer" className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-cyan-400/10 transition-all duration-300">
                 Schedule a Call
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>
