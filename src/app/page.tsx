@@ -56,7 +56,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  Real estate agents are posting but nobody sees it. We amplify your reach with proven strategies that bypass the suppression and get your listings in front of the right buyers.
+                  Real estate agents are posting but nobody sees it. We amplify your reach with proven strategies that bypass the suppression and get your listings in front of the right buyers. Auto-deploy test!
                 </p>
               </div>
 
