@@ -29,46 +29,33 @@ const AmplifyLogo: React.FC<AmplifyLogoProps> = ({
     <div className={`flex items-center ${className}`}>
       {/* Logo Icon */}
       <div className={`${sizeClasses[size]} relative`}>
-        {/* Outer chevron */}
-        <div className="absolute inset-0">
-          <svg 
-            viewBox="0 0 24 24" 
-            className="w-full h-full"
-            fill="none"
-          >
-            <path
-              d="M2 12L8 6L8 10L14 6L14 10L20 6L20 10L22 12L20 14L20 18L14 14L14 18L8 14L8 18L2 12Z"
-              fill="url(#outerGradient)"
-            />
-          </svg>
-        </div>
-        
-        {/* Inner chevron */}
-        <div className="absolute inset-1">
-          <svg 
-            viewBox="0 0 24 24" 
-            className="w-full h-full"
-            fill="none"
-          >
-            <path
-              d="M4 12L8 8L8 10L12 8L12 10L16 8L16 10L18 12L16 14L16 16L12 14L12 16L8 14L8 16L4 12Z"
-              fill="url(#innerGradient)"
-            />
-          </svg>
-        </div>
-        
-        {/* Gradient definitions */}
-        <svg width="0" height="0">
+        <svg 
+          viewBox="0 0 24 24" 
+          className="w-full h-full"
+          fill="none"
+        >
           <defs>
-            <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <linearGradient id={`outerGradient-${size}`} x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#FF6B35" />
               <stop offset="100%" stopColor="#E91E63" />
             </linearGradient>
-            <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <linearGradient id={`innerGradient-${size}`} x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#FF8A65" />
               <stop offset="100%" stopColor="#F06292" />
             </linearGradient>
           </defs>
+          
+          {/* Outer chevron */}
+          <path
+            d="M2 12L8 6L8 10L14 6L14 10L20 6L20 10L22 12L20 14L20 18L14 14L14 18L8 14L8 18L2 12Z"
+            fill={`url(#outerGradient-${size})`}
+          />
+          
+          {/* Inner chevron */}
+          <path
+            d="M4 12L8 8L8 10L12 8L12 10L16 8L16 10L18 12L16 14L16 16L12 14L12 16L8 14L8 16L4 12Z"
+            fill={`url(#innerGradient-${size})`}
+          />
         </svg>
       </div>
       
