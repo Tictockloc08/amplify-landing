@@ -9,9 +9,9 @@ export default function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
+    <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-orange-500/20">
+      <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-orange-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
@@ -110,7 +110,7 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-4">
-                    <div className="bg-slate-700/50 rounded-lg p-4">
+                    <div className="bg-gray-800/50 rounded-lg p-4">
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-sm text-gray-400">Organic Reach</span>
                         <span className="text-sm text-red-400">-85%</span>
@@ -120,7 +120,7 @@ export default function Home() {
                       </div>
                     </div>
                     
-                    <div className="bg-slate-700/50 rounded-lg p-4">
+                    <div className="bg-gray-800/50 rounded-lg p-4">
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-sm text-gray-400">With AMPLIFY</span>
                         <span className="text-sm text-pink-400">+340%</span>
@@ -149,7 +149,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
+      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/30">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -194,7 +194,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300"
+                className="bg-gradient-to-br from-gray-900 to-black rounded-xl p-8 border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300"
               >
                 <div className="text-orange-400 mb-4">{service.icon}</div>
                 <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
@@ -240,8 +240,8 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="relative"
             >
-              <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl p-8 border border-orange-500/20">
-                <div className="aspect-video bg-slate-700 rounded-lg mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-gray-900 to-black rounded-xl p-8 border border-orange-500/20">
+                <div className="aspect-video bg-gray-800 rounded-lg mb-6 flex items-center justify-center">
                   <button 
                     onClick={() => setIsVideoPlaying(true)}
                     className="bg-gradient-to-r from-orange-500 to-pink-500 text-white p-6 rounded-full hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-110"
@@ -286,7 +286,7 @@ export default function Home() {
                   rating: 5
                 }
               ].map((testimonial, index) => (
-                <div key={index} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-6 border border-orange-500/20">
+                <div key={index} className="bg-gradient-to-br from-gray-900 to-black rounded-lg p-6 border border-orange-500/20">
                   <div className="flex items-center mb-3">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
@@ -305,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/50">
+      <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/30">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -329,7 +329,7 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
-              className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 border-2 border-orange-500/40 relative overflow-hidden"
+              className="bg-gradient-to-br from-gray-900 to-black rounded-2xl p-8 border-2 border-orange-500/40 relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 bg-gradient-to-l from-orange-500 to-pink-500 text-white px-6 py-2 rounded-bl-lg text-sm font-semibold">
                 Most Popular
@@ -376,12 +376,12 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-4 mb-8">
-                    <div className="bg-slate-700/50 rounded-lg p-4">
+                    <div className="bg-gray-800/50 rounded-lg p-4">
                       <div className="text-sm text-gray-400 mb-1">Daily Ad Spend</div>
                       <div className="text-lg font-semibold">You Control</div>
                       <div className="text-xs text-gray-500">Adjust anytime</div>
                     </div>
-                    <div className="bg-slate-700/50 rounded-lg p-4">
+                    <div className="bg-gray-800/50 rounded-lg p-4">
                       <div className="text-sm text-gray-400 mb-1">Contract</div>
                       <div className="text-lg font-semibold">Month-to-Month</div>
                       <div className="text-xs text-gray-500">Cancel anytime</div>
@@ -433,7 +433,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 border-t border-orange-500/20 py-12 px-4 sm:px-6 lg:px-8">
+      <footer className="bg-black border-t border-orange-500/20 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -480,7 +480,7 @@ export default function Home() {
       {/* Video Modal */}
       {isVideoPlaying && (
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-          <div className="bg-slate-800 rounded-lg p-4 max-w-4xl w-full">
+            <div className="bg-gray-900 rounded-lg p-4 max-w-4xl w-full">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-xl font-semibold">Client Testimonial</h3>
               <button 
@@ -490,7 +490,7 @@ export default function Home() {
                 ✕
               </button>
             </div>
-            <div className="aspect-video bg-slate-700 rounded-lg flex items-center justify-center">
+            <div className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
               <p className="text-gray-400">Video placeholder - Replace with actual testimonial video</p>
             </div>
           </div>
