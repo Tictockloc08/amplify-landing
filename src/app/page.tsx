@@ -51,9 +51,6 @@ export default function Home() {
               className="space-y-8"
             >
               <div className="space-y-4">
-                <div className="flex justify-center mb-8">
-                  <AmplifyLogo size="xl" />
-                </div>
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   Reach Your Most Valuable Audience
                   <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
