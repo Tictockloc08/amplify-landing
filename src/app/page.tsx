@@ -4,12 +4,15 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Play, CheckCircle, Star, ArrowRight, Instagram, Facebook, Youtube } from 'lucide-react';
 import AmplifyLogo from '../components/AmplifyLogo';
+import StarField from '../components/StarField';
 
 export default function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-hidden">
+    <div className="min-h-screen bg-black text-white overflow-hidden relative">
+      {/* Starry Night Sky Background */}
+      <StarField />
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-orange-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

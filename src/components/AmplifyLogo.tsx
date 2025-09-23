@@ -36,13 +36,15 @@ const AmplifyLogo: React.FC<AmplifyLogoProps> = ({
   return (
     <div className={`flex items-center ${className}`}>
       {/* Logo Icon - Using your actual PNG logo */}
-      <div className={`${sizeClasses[size]} relative`}>
+      <div className={`${sizeClasses[size]} relative group`}>
         <Image
           src="/amplify-logo.png"
           alt="AMPLIFY Digital Marketing Logo"
           fill
-          className="object-contain"
+          className="object-contain transition-all duration-300 group-hover:scale-105"
         />
+        {/* Subtle glow effect */}
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-400/20 to-pink-400/20 rounded-full blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
       
       {/* Text */}
