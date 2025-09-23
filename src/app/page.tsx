@@ -48,6 +48,9 @@ export default function Home() {
               className="space-y-8"
             >
               <div className="space-y-4">
+                <div className="flex justify-center mb-8">
+                  <AmplifyLogo size="xl" />
+                </div>
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                   Reach Your Most Valuable Audience
                   <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
@@ -55,13 +58,13 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  Real estate agents are posting but nobody sees it. We <AmplifyLogo size="sm" showText={false} className="inline-flex" /> your reach with proven strategies that bypass the suppression and get your listings in front of the right buyers. Auto-deploy test!
+                  Real estate agents are posting but nobody sees it. We amplify your reach with proven strategies that bypass the suppression and get your listings in front of the right buyers. Auto-deploy test!
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="#pricing" className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
-                  <AmplifyLogo size="sm" showText={false} className="mr-2" /> My Reach
+                  Amplify My Reach
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <button 
@@ -119,9 +122,7 @@ export default function Home() {
                     
                     <div className="bg-slate-700/50 rounded-lg p-4">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-sm text-gray-400 flex items-center">
-                          With <AmplifyLogo size="sm" showText={false} className="ml-1" />
-                        </span>
+                        <span className="text-sm text-gray-400">With AMPLIFY</span>
                         <span className="text-sm text-pink-400">+340%</span>
                       </div>
                       <div className="w-full bg-slate-600 rounded-full h-2">
@@ -228,7 +229,7 @@ export default function Home() {
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              See how we&apos;ve helped real estate agents <AmplifyLogo size="sm" showText={false} className="inline-flex" /> their reach and close more deals.
+              See how we&apos;ve helped real estate agents amplify their reach and close more deals.
             </p>
           </motion.div>
 
@@ -249,7 +250,7 @@ export default function Home() {
                   </button>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Sarah Johnson, Realtor</h3>
-                <p className="text-gray-300 mb-4">&ldquo;<AmplifyLogo size="sm" showText={false} className="inline-flex" /> increased my lead generation by 300% in just 2 months. I&apos;m closing 3x more deals now.&rdquo;</p>
+                <p className="text-gray-300 mb-4">&ldquo;AMPLIFY increased my lead generation by 300% in just 2 months. I&apos;m closing 3x more deals now.&rdquo;</p>
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
@@ -336,9 +337,7 @@ export default function Home() {
               
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-3xl font-bold mb-4 flex items-center">
-                    <AmplifyLogo size="md" showText={false} className="mr-3" /> Package
-                  </h3>
+                  <h3 className="text-3xl font-bold mb-4">AMPLIFY Package</h3>
                   <div className="space-y-4 mb-8">
                     <div className="flex items-center">
                       <CheckCircle className="h-5 w-5 text-pink-400 mr-3" />
@@ -390,7 +389,7 @@ export default function Home() {
                   </div>
 
                   <a href="#pricing" className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 inline-block text-center">
-                    Start <AmplifyLogo size="sm" showText={false} className="inline-flex" />ing Today
+                    Start Amplifying Today
                   </a>
                   
                   <p className="text-xs text-gray-500 mt-4">
@@ -413,13 +412,13 @@ export default function Home() {
             className="space-y-8"
           >
             <h2 className="text-4xl lg:text-5xl font-bold">
-              Ready to <AmplifyLogo size="lg" showText={false} className="inline-flex" /> Your
+              Ready to Amplify Your
               <span className="block bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">
                 Real Estate Business?
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Join hundreds of real estate agents who are already getting better results with <AmplifyLogo size="md" showText={false} className="inline-flex" />.
+              Join hundreds of real estate agents who are already getting better results with AMPLIFY.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#pricing" className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105">
@@ -438,11 +437,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="mb-4">
-                <AmplifyLogo size="lg" />
-              </div>
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent mb-4">
+                AMPLIFY
+              </h3>
               <p className="text-gray-400">
-                <AmplifyLogo size="sm" showText={false} className="inline-flex" />ing real estate agents&apos; reach and results through proven digital marketing strategies.
+                Amplifying real estate agents&apos; reach and results through proven digital marketing strategies.
               </p>
             </div>
             <div>
@@ -473,7 +472,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 <AmplifyLogo size="sm" showText={false} className="inline-flex" />. All rights reserved.</p>
+            <p>&copy; 2024 AMPLIFY. All rights reserved.</p>
           </div>
         </div>
       </footer>
