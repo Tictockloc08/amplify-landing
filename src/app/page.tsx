@@ -241,13 +241,15 @@ export default function Home() {
               className="relative"
             >
               <div className="bg-gradient-to-br from-gray-900 to-black rounded-xl p-8 border border-orange-500/20">
-                <div className="aspect-video bg-gray-800 rounded-lg mb-6 flex items-center justify-center">
-                  <button 
-                    onClick={() => setIsVideoPlaying(true)}
-                    className="bg-gradient-to-r from-orange-500 to-pink-500 text-white p-6 rounded-full hover:from-orange-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-110"
+                <div className="aspect-video bg-gray-800 rounded-lg mb-6 overflow-hidden">
+                  <video 
+                    className="w-full h-full object-cover rounded-lg"
+                    controls
+                    poster="/amplify-logo.png"
                   >
-                    <Play className="h-8 w-8" />
-                  </button>
+                    <source src="/Testimonial-video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
                 <h3 className="text-xl font-bold mb-2">Sarah Johnson, Realtor</h3>
                 <p className="text-gray-300 mb-4">&ldquo;AMPLIFY increased my lead generation by 300% in just 2 months. I&apos;m closing 3x more deals now.&rdquo;</p>
@@ -490,8 +492,16 @@ export default function Home() {
                 ✕
               </button>
             </div>
-            <div className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
-              <p className="text-gray-400">Video placeholder - Replace with actual testimonial video</p>
+            <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
+              <video 
+                className="w-full h-full object-cover rounded-lg"
+                controls
+                autoPlay
+                poster="/amplify-logo.png"
+              >
+                <source src="/Testimonial-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
