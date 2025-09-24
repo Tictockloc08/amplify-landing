@@ -251,13 +251,13 @@ export default function Home() {
                     Your browser does not support the video tag.
                   </video>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Sarah Johnson, Realtor</h3>
-                <p className="text-gray-300 mb-4">&ldquo;AMPLIFY increased my lead generation by 300% in just 2 months. I&apos;m closing 3x more deals now.&rdquo;</p>
-                <div className="flex items-center">
+                <h3 className="text-xl font-bold mb-2 text-center">Real Agents, Real Results</h3>
+                <p className="text-gray-300 mb-4 text-center">&ldquo;Hear how agents just like you are winning with AMPLIFY&rdquo;</p>
+                <div className="flex items-center justify-center">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                   ))}
-                  <span className="ml-2 text-sm text-gray-400">5.0 rating</span>
+                  <span className="ml-2 text-sm text-gray-400">Success Stories</span>
                 </div>
               </div>
             </motion.div>
